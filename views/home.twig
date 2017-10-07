@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<!--ภาษาหลักคือภาษาอังกฤษ คือการกำหนดภาษาหลัก-->
+<head>
+	<meta charset="UTF-8"> 
+	<!--//ฟอนต์UTFขนาด8-->
+	<title>CMM 19</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.min.css">
+	<link rel="stylesheet" href="/assets/home.css">
+</head>
+<body><!--เก็บข้อมูลที่จะแสดงผลในห้นาเว็บ-->
+	<header>
+		<div class="has-text-centered">
+			<img src="/assets/images/logo.png" alt="" width="145" height="auto"><!-- images เป็น inline จะอยู่บรรทัดเดียวกัน เรียงต่อๆกัน-->
+		</div> <!--คิดไม่ออกก็คลุม div ไปก่อน  div อยู่ในหวมด display--> 
+			<nav class="navbar-tabs"> <!-- ใส่ class ทำให้ select ใน CSSได้ง่ายขึ้น คือถ้ามี . มันก็คือ classนั่นแล-->
+				<a href="#" class="navbar-item">LOCATION</a> <!--tag a ใส่ให้ลิงค์ได้ ,ใส่#ไว้ไม่ให้มันไปไไหน ,เปลี่ยน workเป็นอย่างอื่นได้-->
+				<a href="#" class="navbar-item">TIME</a>
+				<a href="#" class="navbar-item">PRICE</a>
+				<a href="#" class="navbar-item">RATE</a>
+				<a href="#" class="navbar-item">CHECK-IN</a>
+				<a href="#" class="navbar-item">NEARBY</a>
+				<a href="#" class="navbar-item">MY FAVORITE</a>
+				<a href="#" class="navbar-item">CONTACT US</a>	
+			</nav> <!--เป็น tag เฉพาะของ Navigation bar ใช้tagอื่นก็ได้ แต่ใช้ถูกตัวของมันจะดีกว่า-->
+	</header>
+
+	<main>
+		<section class="banner">
+			<div class="highlight">
+				<div class="columns">
+					<div class="column highlight-item">
+						<h1>Aunt's Garden</h1>
+					</div>
+				</div>
+			</div>
+			<div class="thumbnail">
+				<div class="columns is-marginless"> <!--ใส่maginless เพื่อเอาขอบออก-->
+					<div class="column thumbnail-item is-paddingless" style="background-image: url(/assets/images/home/banner/thumbnail-1.jpg);">
+						Our Garden
+					</div>
+					<div class="column thumbnail-item is-paddingless" style="background-image: url(/assets/images/home/banner/thumbnail-2.jpg);">
+						Our Product
+					</div>
+					<div class="column thumbnail-item is-paddingless" style="background-image: url(/assets/images/home/banner/thumbnail-3.jpg);">
+						Your Garden
+					</div>
+					<div class="column thumbnail-item is-paddingless" style="background-image: url(/assets/images/home/banner/thumbnail-4.jpg);">
+						Selling
+						<!--padding คือระยะห่างระหว่างรูป-->
+					</div>
+				</div>
+			</div>	
+		</section>
+		<section class="section we-present">
+			<div class="container"> <!--กำหนดขนาcontent-->
+				<div class="columns">
+					<div class="column has-text-left">
+						<a href="#">LASTET</a>
+					</div>
+					<div class="column has-text-centered">
+						<a href="#">WE PRESENT</a>
+					</div>
+					<div class="column has-text-right">
+						<a href="#">SEARCH</a>
+					</div>
+				</div>
+
+				<div class="columns is-multiline">
+					<a href="#" class="column is-one-third"> <!--คือ 1น 3 =4นั่นแหละ แบ่งcolumn-->
+						<div class="card">
+							<div class="card-image">
+								<figure class="image is-3by2">
+									<img src="/assets/images/home/we-preset/img-1.jpg" alt="image-1"> <!--ใส่ alt เพื่อที่ถ้ารูปไม่โหลดจะขึ้น textอะไร-->
+								</figure>
+							</div>
+							<div class="card-content">
+								<h5 class="category">Public Space</h5>
+								<h3 class="title is-spaced is-4">
+									Our Garden is Organic.
+								</h3>
+								<h4 class="subtitle is-6">
+									Aunty
+								</h4>
+								<p>
+									 Our Product is for Healthy People. or People who wants to be Healthy.
+								</p>
+							</div>
+						</div>
+					</a> 
+					<a href="#" class="column is-one-third"> <!--คือ 1น 3 =4นั่นแหละ แบ่งcolumn-->
+						<div class="card">
+							<div class="card-image">
+								<figure class="image is-3by2">
+									<img src="/assets/images/home/we-preset/img-2.jpg" alt="image-2"> <!--ใส่ alt เพื่อที่ถ้ารูปไม่โหลดจะขึ้น textอะไร-->
+								</figure>
+							</div>
+							<div class="card-content">
+								<h5 class="category">Public Space</h5>
+								<h3 class="title is-spaced is-4">
+									Our Garden is Organic.
+								</h3>
+								<h4 class="subtitle is-6">
+									Aunty
+								</h4>
+								<p>
+									 Our Product is for Healthy People. or People who wants to be Healthy.
+								</p>
+							</div>
+						</div>
+					</a> 
+					<a href="#" class="column is-one-third"> <!--คือ 1น 3 =4นั่นแหละ แบ่งcolumn-->
+						<div class="card">
+							<div class="card-image">
+								<figure class="image is-3by2">
+									<img src="/assets/images/home/we-preset/img-3.jpg" alt="image-3"> <!--ใส่ alt เพื่อที่ถ้ารูปไม่โหลดจะขึ้น textอะไร-->
+								</figure>
+							</div>
+							<div class="card-content">
+								<h5 class="category">Public Space</h5>
+								<h3 class="title is-spaced is-4">
+									Our Garden is Organic.
+								</h3>
+								<h4 class="subtitle is-6">
+									Aunty
+								</h4>
+								<p>
+									 Our Product is for Healthy People. or People who wants to be Healthy.
+								</p>
+							</div>
+						</div>
+					</a> 
+					<a href="#" class="column is-one-third"> <!--คือ 1น 3 =4นั่นแหละ แบ่งcolumn-->
+						<div class="card">
+							<div class="card-image">
+								<figure class="image is-3by2">
+									<img src="/assets/images/home/we-preset/img-4.jpg" alt="image-4"> <!--ใส่ alt เพื่อที่ถ้ารูปไม่โหลดจะขึ้น textอะไร-->
+								</figure>
+							</div>
+							<div class="card-content">
+								<h5 class="category">Public Space</h5>
+								<h3 class="title is-spaced is-4">
+									Our Garden is Organic.
+								</h3>
+								<h4 class="subtitle is-6">
+									Aunty
+								</h4>
+								<p>
+									 Our Product is for Healthy People. or People who wants to be Healthy.
+								</p>
+							</div>
+						</div>
+					</a> 
+					<a href="#" class="column is-one-third"> <!--คือ 1น 3 =4นั่นแหละ แบ่งcolumn-->
+						<div class="card">
+							<div class="card-image">
+								<figure class="image is-3by2">
+									<img src="/assets/images/home/we-preset/img-5.jpg" alt="image-5"> <!--ใส่ alt เพื่อที่ถ้ารูปไม่โหลดจะขึ้น textอะไร-->
+								</figure>
+							</div>
+							<div class="card-content">
+								<h5 class="category">Public Space</h5>
+								<h3 class="title is-spaced is-4">
+									Our Garden is Organic.
+								</h3>
+								<h4 class="subtitle is-6">
+									Aunty
+								</h4>
+								<p>
+									 Our Product is for Healthy People. or People who wants to be Healthy.
+								</p>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="column is-one-third"> <!--คือ 1น 3 =4นั่นแหละ แบ่งcolumn-->
+						<div class="card">
+							<div class="card-image">
+								<figure class="image is-3by2">
+									<img src="/assets/images/home/we-preset/img-6.jpg" alt="image-6"> <!--ใส่ alt เพื่อที่ถ้ารูปไม่โหลดจะขึ้น textอะไร-->
+								</figure>
+							</div>
+							<div class="card-content">
+								<h5 class="category">Public Space</h5>
+								<h3 class="title is-spaced is-4">
+									Our Garden is Organic.
+								</h3>
+								<h4 class="subtitle is-6">
+									Aunty
+								</h4>
+								<p>
+									 Our Product is for Healthy People. or People who wants to be Healthy.
+								</p>
+							</div>
+						</div>
+					</a>  
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
